@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+html,body{
+    font-size:2.26vh;
+}
+@media screen and (max-height: 1200px){
+    html,body{
+        font-size:20px;
+    }
+}
+body{
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#222;
+}
+h1{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+}
+h4{
+    font-size: 1.25rem;
+}
+h6{
+    font-size: 0.7rem;
+}
+p{
+    color:#465b52;
+}
+
+
+/* --- navbar --- */
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 2vh 5vw;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+.logo{
+    width:20vh;
+    border-radius: 50px;
+}
+@media screen and (max-height: 400px){
+    .logo{
+        width:100px;
+        border-radius: 50px;
+    }
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.navbar li{
+    list-style: none;
+    padding: 0 2vw;
+    text-transform: uppercase;
+}
+.navbar li a{
+    text-decoration:none;
+    font-size: 0.7rem;
+    color: #1a1a1a;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+.navbar li a:hover,
+.navbar li a.active{
+    color:#0aa096;
+    border-bottom: 4px solid #0aa096;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
